@@ -67,9 +67,11 @@
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.clock);
-            this.groupBox1.Location = new System.Drawing.Point(12, 32);
+            this.groupBox1.Location = new System.Drawing.Point(9, 26);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(461, 114);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Size = new System.Drawing.Size(346, 93);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Uhr";
@@ -77,19 +79,21 @@
             // clock
             // 
             this.clock.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.clock.Location = new System.Drawing.Point(54, 21);
+            this.clock.Location = new System.Drawing.Point(40, 17);
+            this.clock.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.clock.Name = "clock";
             this.clock.ReadOnly = true;
-            this.clock.Size = new System.Drawing.Size(347, 75);
+            this.clock.Size = new System.Drawing.Size(261, 62);
             this.clock.TabIndex = 2;
             this.clock.Text = "00:00:00";
             this.clock.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // btn_start
             // 
-            this.btn_start.Location = new System.Drawing.Point(28, 21);
+            this.btn_start.Location = new System.Drawing.Point(21, 17);
+            this.btn_start.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btn_start.Name = "btn_start";
-            this.btn_start.Size = new System.Drawing.Size(130, 45);
+            this.btn_start.Size = new System.Drawing.Size(98, 37);
             this.btn_start.TabIndex = 2;
             this.btn_start.Text = "Start";
             this.btn_start.UseVisualStyleBackColor = true;
@@ -100,18 +104,21 @@
             this.groupBox2.Controls.Add(this.btn_new);
             this.groupBox2.Controls.Add(this.btn_stop);
             this.groupBox2.Controls.Add(this.btn_start);
-            this.groupBox2.Location = new System.Drawing.Point(12, 152);
+            this.groupBox2.Location = new System.Drawing.Point(9, 124);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(461, 83);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox2.Size = new System.Drawing.Size(346, 67);
             this.groupBox2.TabIndex = 3;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Steuerung";
             // 
             // btn_new
             // 
-            this.btn_new.Location = new System.Drawing.Point(300, 21);
+            this.btn_new.Location = new System.Drawing.Point(225, 17);
+            this.btn_new.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btn_new.Name = "btn_new";
-            this.btn_new.Size = new System.Drawing.Size(130, 45);
+            this.btn_new.Size = new System.Drawing.Size(98, 37);
             this.btn_new.TabIndex = 4;
             this.btn_new.Text = "Neu";
             this.btn_new.UseVisualStyleBackColor = true;
@@ -119,9 +126,10 @@
             // 
             // btn_stop
             // 
-            this.btn_stop.Location = new System.Drawing.Point(164, 21);
+            this.btn_stop.Location = new System.Drawing.Point(123, 17);
+            this.btn_stop.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btn_stop.Name = "btn_stop";
-            this.btn_stop.Size = new System.Drawing.Size(130, 45);
+            this.btn_stop.Size = new System.Drawing.Size(98, 37);
             this.btn_stop.TabIndex = 3;
             this.btn_stop.Text = "Stop";
             this.btn_stop.UseVisualStyleBackColor = true;
@@ -132,18 +140,21 @@
             this.groupBox3.Controls.Add(this.btn_delete);
             this.groupBox3.Controls.Add(this.btn_runde);
             this.groupBox3.Controls.Add(this.box_runde);
-            this.groupBox3.Location = new System.Drawing.Point(12, 241);
+            this.groupBox3.Location = new System.Drawing.Point(9, 196);
+            this.groupBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(461, 239);
+            this.groupBox3.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox3.Size = new System.Drawing.Size(346, 194);
             this.groupBox3.TabIndex = 4;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Runde";
             // 
             // btn_delete
             // 
-            this.btn_delete.Location = new System.Drawing.Point(232, 21);
+            this.btn_delete.Location = new System.Drawing.Point(174, 17);
+            this.btn_delete.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btn_delete.Name = "btn_delete";
-            this.btn_delete.Size = new System.Drawing.Size(198, 45);
+            this.btn_delete.Size = new System.Drawing.Size(148, 37);
             this.btn_delete.TabIndex = 6;
             this.btn_delete.Text = "Löschen";
             this.btn_delete.UseVisualStyleBackColor = true;
@@ -151,9 +162,10 @@
             // 
             // btn_runde
             // 
-            this.btn_runde.Location = new System.Drawing.Point(28, 21);
+            this.btn_runde.Location = new System.Drawing.Point(21, 17);
+            this.btn_runde.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btn_runde.Name = "btn_runde";
-            this.btn_runde.Size = new System.Drawing.Size(198, 45);
+            this.btn_runde.Size = new System.Drawing.Size(148, 37);
             this.btn_runde.TabIndex = 5;
             this.btn_runde.Text = "Runde";
             this.btn_runde.UseVisualStyleBackColor = true;
@@ -163,10 +175,10 @@
             // 
             this.box_runde.Enabled = false;
             this.box_runde.FormattingEnabled = true;
-            this.box_runde.ItemHeight = 16;
-            this.box_runde.Location = new System.Drawing.Point(28, 72);
+            this.box_runde.Location = new System.Drawing.Point(21, 58);
+            this.box_runde.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.box_runde.Name = "box_runde";
-            this.box_runde.Size = new System.Drawing.Size(402, 148);
+            this.box_runde.Size = new System.Drawing.Size(302, 121);
             this.box_runde.TabIndex = 5;
             // 
             // time_sek
@@ -185,7 +197,8 @@
             this.hilfeToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(485, 28);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
+            this.menuStrip1.Size = new System.Drawing.Size(364, 24);
             this.menuStrip1.TabIndex = 6;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -198,14 +211,14 @@
             this.toolStripSeparator1,
             this.beendenToolStripMenuItem});
             this.dateiToolStripMenuItem.Name = "dateiToolStripMenuItem";
-            this.dateiToolStripMenuItem.Size = new System.Drawing.Size(57, 24);
+            this.dateiToolStripMenuItem.Size = new System.Drawing.Size(46, 20);
             this.dateiToolStripMenuItem.Text = "Datei";
             // 
             // einstellungenToolStripMenuItem
             // 
             this.einstellungenToolStripMenuItem.Enabled = false;
             this.einstellungenToolStripMenuItem.Name = "einstellungenToolStripMenuItem";
-            this.einstellungenToolStripMenuItem.Size = new System.Drawing.Size(271, 26);
+            this.einstellungenToolStripMenuItem.Size = new System.Drawing.Size(221, 22);
             this.einstellungenToolStripMenuItem.Text = "Einstellungen";
             this.einstellungenToolStripMenuItem.Click += new System.EventHandler(this.einstellungenToolStripMenuItem_Click);
             // 
@@ -213,7 +226,7 @@
             // 
             this.rundeExportierenToolStripMenuItem.Image = global::Clock.Properties.Resources.disk;
             this.rundeExportierenToolStripMenuItem.Name = "rundeExportierenToolStripMenuItem";
-            this.rundeExportierenToolStripMenuItem.Size = new System.Drawing.Size(271, 26);
+            this.rundeExportierenToolStripMenuItem.Size = new System.Drawing.Size(221, 22);
             this.rundeExportierenToolStripMenuItem.Text = "gestoppte Zeit exportieren...";
             this.rundeExportierenToolStripMenuItem.Click += new System.EventHandler(this.rundeExportierenToolStripMenuItem_Click_1);
             // 
@@ -221,20 +234,20 @@
             // 
             this.kreditsToolStripMenuItem.Image = global::Clock.Properties.Resources.information;
             this.kreditsToolStripMenuItem.Name = "kreditsToolStripMenuItem";
-            this.kreditsToolStripMenuItem.Size = new System.Drawing.Size(271, 26);
+            this.kreditsToolStripMenuItem.Size = new System.Drawing.Size(221, 22);
             this.kreditsToolStripMenuItem.Text = "Kredits";
             this.kreditsToolStripMenuItem.Click += new System.EventHandler(this.kreditsToolStripMenuItem_Click);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(268, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(218, 6);
             // 
             // beendenToolStripMenuItem
             // 
             this.beendenToolStripMenuItem.Image = global::Clock.Properties.Resources.cross;
             this.beendenToolStripMenuItem.Name = "beendenToolStripMenuItem";
-            this.beendenToolStripMenuItem.Size = new System.Drawing.Size(271, 26);
+            this.beendenToolStripMenuItem.Size = new System.Drawing.Size(221, 22);
             this.beendenToolStripMenuItem.Text = "Beenden";
             this.beendenToolStripMenuItem.Click += new System.EventHandler(this.beendenToolStripMenuItem_Click);
             // 
@@ -245,7 +258,7 @@
             this.stopToolStripMenuItem,
             this.neuToolStripMenuItem});
             this.bearbeitenToolStripMenuItem.Name = "bearbeitenToolStripMenuItem";
-            this.bearbeitenToolStripMenuItem.Size = new System.Drawing.Size(77, 24);
+            this.bearbeitenToolStripMenuItem.Size = new System.Drawing.Size(63, 20);
             this.bearbeitenToolStripMenuItem.Text = "Stoppen";
             // 
             // startToolStripMenuItem
@@ -254,7 +267,7 @@
             this.startToolStripMenuItem.Name = "startToolStripMenuItem";
             this.startToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Alt) 
             | System.Windows.Forms.Keys.F5)));
-            this.startToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
+            this.startToolStripMenuItem.Size = new System.Drawing.Size(169, 22);
             this.startToolStripMenuItem.Text = "Start";
             this.startToolStripMenuItem.Click += new System.EventHandler(this.startToolStripMenuItem_Click);
             // 
@@ -262,7 +275,7 @@
             // 
             this.stopToolStripMenuItem.Image = global::Clock.Properties.Resources.stop1;
             this.stopToolStripMenuItem.Name = "stopToolStripMenuItem";
-            this.stopToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
+            this.stopToolStripMenuItem.Size = new System.Drawing.Size(169, 22);
             this.stopToolStripMenuItem.Text = "Stop";
             this.stopToolStripMenuItem.Click += new System.EventHandler(this.stopToolStripMenuItem_Click);
             // 
@@ -270,7 +283,7 @@
             // 
             this.neuToolStripMenuItem.Image = global::Clock.Properties.Resources._new;
             this.neuToolStripMenuItem.Name = "neuToolStripMenuItem";
-            this.neuToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
+            this.neuToolStripMenuItem.Size = new System.Drawing.Size(169, 22);
             this.neuToolStripMenuItem.Text = "Neu";
             this.neuToolStripMenuItem.Click += new System.EventHandler(this.neuToolStripMenuItem_Click);
             // 
@@ -281,14 +294,14 @@
             this.löschenToolStripMenuItem,
             this.toolStripSeparator2});
             this.rundeToolStripMenuItem.Name = "rundeToolStripMenuItem";
-            this.rundeToolStripMenuItem.Size = new System.Drawing.Size(63, 24);
+            this.rundeToolStripMenuItem.Size = new System.Drawing.Size(53, 20);
             this.rundeToolStripMenuItem.Text = "Runde";
             // 
             // rundeToolStripMenuItem1
             // 
             this.rundeToolStripMenuItem1.Image = global::Clock.Properties.Resources.tb_icon25_checkfeed;
             this.rundeToolStripMenuItem1.Name = "rundeToolStripMenuItem1";
-            this.rundeToolStripMenuItem1.Size = new System.Drawing.Size(137, 26);
+            this.rundeToolStripMenuItem1.Size = new System.Drawing.Size(118, 22);
             this.rundeToolStripMenuItem1.Text = "Runde";
             this.rundeToolStripMenuItem1.Click += new System.EventHandler(this.rundeToolStripMenuItem1_Click);
             // 
@@ -296,19 +309,19 @@
             // 
             this.löschenToolStripMenuItem.Image = global::Clock.Properties.Resources.delete;
             this.löschenToolStripMenuItem.Name = "löschenToolStripMenuItem";
-            this.löschenToolStripMenuItem.Size = new System.Drawing.Size(137, 26);
+            this.löschenToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
             this.löschenToolStripMenuItem.Text = "Löschen";
             this.löschenToolStripMenuItem.Click += new System.EventHandler(this.löschenToolStripMenuItem_Click);
             // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(134, 6);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(115, 6);
             // 
             // hilfeToolStripMenuItem
             // 
             this.hilfeToolStripMenuItem.Name = "hilfeToolStripMenuItem";
-            this.hilfeToolStripMenuItem.Size = new System.Drawing.Size(53, 24);
+            this.hilfeToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
             this.hilfeToolStripMenuItem.Text = "Hilfe";
             this.hilfeToolStripMenuItem.Click += new System.EventHandler(this.hilfeToolStripMenuItem_Click);
             // 
@@ -319,9 +332,9 @@
             // 
             // main
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(485, 492);
+            this.ClientSize = new System.Drawing.Size(364, 399);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
@@ -329,6 +342,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.HelpButton = true;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.MaximizeBox = false;
             this.Name = "main";
             this.Text = "Stoppuhr";
