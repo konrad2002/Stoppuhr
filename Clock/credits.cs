@@ -24,10 +24,5 @@ namespace Clock
         {
             System.Diagnostics.Process.Start("http://clock.logilutions.de");
         }
-
-        private void version_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }

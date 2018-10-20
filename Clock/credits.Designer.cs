@@ -94,8 +94,7 @@
             this.version.Name = "version";
             this.version.Size = new System.Drawing.Size(22, 13);
             this.version.TabIndex = 0;
-            this.version.Text = "1.1";
-            this.version.Click += new System.EventHandler(this.version_Click);
+            this.version.Text = "1.3";
             // 
             // groupBox2
             // 
